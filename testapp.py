@@ -1,6 +1,6 @@
 def application(environ, start_response):
     status = '200 OK'
-    output = b'Hello World! Deploying First Python Web App Using CICD Pipeline'
+    output = b'Modified as per user feedbak. Deploying First Python Web App Using CICD Pipeline'
     response_headers = [('Content-type', 'text/plain'),
     ('Content-Length', str(len(output)))]
     start_response(status, response_headers)
